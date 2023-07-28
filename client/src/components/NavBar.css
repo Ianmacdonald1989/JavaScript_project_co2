@@ -1,0 +1,66 @@
+nav {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+}
+
+#logo-colour {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  margin-left: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    margin-right: 10px;
+}
+
+#plant-a-tree {
+  color: #07203c;
+  border-radius: 4px;
+}
+
+.nav-btn {
+  background-color: white;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#home:hover {
+  opacity: 0.8;
+}
+
+#my-trips:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 800px) {
+  nav {
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+  }
+  .links-container {
+    text-align: center;
+    margin-right: -30px;
+  }
+}

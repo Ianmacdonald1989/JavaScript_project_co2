@@ -1,0 +1,39 @@
+.flight-detail-contrainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#header {
+  color: black;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+#plant-tree-button {
+  width: 125px;
+  height: 40px;
+  border: solid 0px;
+  border-radius: 6px;
+  background-color: #78d985;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  transition: all 0.3s ease-in-out;
+}
+
+#plant-tree-button:hover {
+    transform: scale(1.02);
+}
+
+#plant-tree-button:active {
+    transform: scale(0.97);
+  }
